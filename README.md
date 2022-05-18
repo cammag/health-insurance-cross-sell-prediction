@@ -76,7 +76,7 @@ At this analysis, we can compare all independent variables to the dependent one.
 ### Multivariate Analysis
 At this analysis, we can see the behavior of each variable compared to other variables.
 
-![Multivariate Analysis](/images/bivariate_analysis_categorical.png)
+![Multivariate Analysis](/images/multivariate.png)
 
 ### Top Insights
 1. People that has vehicle older than 2 years has the highest proportion that wants to have the health insurance.
@@ -103,12 +103,12 @@ At first, Boruta was used to try to find the best features to train the models, 
 
 The choosen features by importance were:
 
--img
+![Choosen Features](/images/features_choosen.png)
 
 ## Machine Learning
 The choosen method to train the model was LightGBM, to use Gradient Boosting Decision Trees.
 
--img
+![LightGBM](/images/lightgbm_plot.png)
 
 This is the cumulative gain plot, which shows the amount of dataset needed to select all of the desired dependent variables.
 
@@ -116,7 +116,7 @@ This is the cumulative gain plot, which shows the amount of dataset needed to se
 After selecting the model, it was created an API and hosted at heroku to predict the score of any data given as an input. This API was linked to
 a Google Sheet to predict the data shown.
 
--img
+![Google Sheet](/images/sheets_predict.gif)
 
 
 

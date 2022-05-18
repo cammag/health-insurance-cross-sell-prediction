@@ -1,6 +1,6 @@
 # Health Insurance Cross Sell Prediction
 
--img
+![Logo](/images/cross_sell_img.png)
 
 In this project, the client is a Insurance Company that has provided Health Insurance to its clients. Now it's needed to create a model that predict if the 
 clients that already has Health Insurance will be interested in a Car Insurance either. An insurance policy is an arrangement by which a company 
@@ -47,36 +47,36 @@ some analysis.
 At this analysis, we can see the behavior of each variable in terms of frequency.
 #### Response Variable
 
--img
+![Response Variable Univariate](/images/univariate_analysis_response.png)
 
 As we can see, that's an unbalanced dataset. The number of not interested customers represents 87.74% of the total dataset.
 
 #### Numerical Variables
 
--img
+![Numerical Variable Univariate](/images/univariate_analysis_numerical)
 
 #### Categorical Variables
 
--img
+![Categorical Variable Univariate](/images/univariate_analysis_categorical.png)
 
 ### Bivariate Analysis
 At this analysis, we can compare all independent variables to the dependent one.
 #### Numerical Variables
 
--img
+![Numerical Variable Bivariate](/images/bivariate_analysis_numerical.png)
 
 **Age**
 
--img
+![Age](/images/bivariate_analysis_age.png)
 
 #### Categorical Variables
 
--img
+![Categorical Variable Bivariate](/images/bivariate_analysis_categorical.png)
 
 ### Multivariate Analysis
 At this analysis, we can see the behavior of each variable compared to other variables.
 
--img
+![Multivariate Analysis](/images/bivariate_analysis_categorical.png)
 
 ### Top Insights
 1. People that has vehicle older than 2 years has the highest proportion that wants to have the health insurance.

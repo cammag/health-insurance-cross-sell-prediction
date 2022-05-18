@@ -2,7 +2,7 @@
 
 ![Logo](/images/cross_sell_img.png)
 
-In this project, the client is a Insurance Company that has provided Health Insurance to its clients. Now it's needed to create a model that predict if the 
+In this project, the client is an Insurance Company that has provided Health Insurance to its clients. Now it's needed to create a model that predict if the 
 clients that already has Health Insurance will be interested in a Car Insurance either. An insurance policy is an arrangement by which a company 
 undertakes to provide a guarantee of compensation for specified loss, damage, illness, or death in return for the payment of a specified premium. A premium is a 
 sum of money that the customer needs to pay regularly to an insurance company for this guarantee.
